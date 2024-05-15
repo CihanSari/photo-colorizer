@@ -1,5 +1,7 @@
 ![pysimplegui_logo](https://user-images.githubusercontent.com/13696193/43165867-fe02e3b2-8f62-11e8-9fd0-cc7c86b11772.png)
 
+Originally: https://github.com/PySimpleGUI/PySimpleGUI-Photo-Colorizer
+
 # Photo Colorization Using Deep Learning
 
 ## Complete Python Application
