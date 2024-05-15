@@ -2,7 +2,7 @@
 
 # Photo Colorization Using Deep Learning
 
-## Complete Python Application With GUI Using PySimpleGUI
+## Complete Python Application
 
 ### ___Important___
 
@@ -30,45 +30,18 @@ The code implementing the algorithm is explained in a well-written tutorial by t
 https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/
 
 
-## Using the GUI
+## Using the Interface
 
-To use the GUI you'll need to install PySimpleGUI (http://www.PySimpleGUI.org for instructions)
-
-One of these will install it for you.
+Install requirements:
 ```
-pip install PySimpleGUI
-pip3 install PySimpleGUI
+pip install -r requirements.txt
 ```
 
-Then you run the demo program using either `python` or `python3` dependind on your system:
+Then you run the demo program using:
 
 ```
-python PySimpleGUI_Colorizer.py
-python3 PySimpleGUI_Colorizer.py
+streamlit run main.py
 ```
-
-### You have 2 options for choosing the image to colorize.
-
-#### Folder View
-
-If you choose a folder in the left column, then a list of files will be shown.  Clicking on a file will "Preview" the image on the right side.  Either copy and paste a path into the input box in the upper left corner, or use the `Browse` button to browse for a folder
-
-![SNAG-0627](https://user-images.githubusercontent.com/46163555/71523944-43c03a00-2899-11ea-8dea-a3be3bfc13ca.jpg)
-
-#### Individual File
-
-You can also choose an individual file using the input box in the upper right.  Either paste a filename into the box or use the `browse` button to choose one.
-
-### Webcam
-
-Press the `Start Webcam` button to see yourself colorized in realtime. It's not super fast, but it does function.
-
-Press the `Stop Webcam` button to stop.
-
-## Saving The Color Image
-
-To save your image simply press the `Save File` button and enter your filename.
-
 
 -------------------------------
 
@@ -86,18 +59,3 @@ Here is more eye-candy courtesy of Deep Learning
 
 
 -----------------------------------
-
-# Webcam Multi-Window Demo
-
-In July 2020 a new demo was added that uses the new (released to GitHub only at this point) multi-window support.  This demo shows 3 video windows:
-
-1. Your webcam's raw video stream
-2. Grayscale version of the video
-3. Fully colorized colored of the grayscale video
-
-Here's a screenshot to give you a rough idea of what to expect from the demo.  The colors likely didn't do so well in this specific shot as there was a lot of background lighting.
-
-![SNAG-0881](https://user-images.githubusercontent.com/46163555/88486988-9e189a80-cf4f-11ea-8dc7-727b7539bab9.jpg)
-
-
-You will need to use the PySimpleGUI.py file from the project's GitHub http://www.PySimpleGUI.com.  Minimum version is 4.26.0.13.
